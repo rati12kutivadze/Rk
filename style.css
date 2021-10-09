@@ -1,0 +1,67 @@
+body
+{
+background-image: url(https://media.cntraveler.com/photos/5b52469f8a1a9f092911d9bb/16:9/w_2560%2Cc_limit/GettyImages-802950172.jpg);
+background-repeat: no-repeat;
+}
+.header
+{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+    display: inline-flex;
+    
+}
+ul#horizontal-list 
+{
+    list-style-type: none;
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+    margin-left: 250px;
+    
+
+}
+ul#horizontal-list li{
+    display: inline;
+    text-align: center;
+    margin-left: 40px;
+  
+}
+ul#horizontal-list li :hover
+{
+color: white;
+font-size: 22px;
+}
+.main{
+    font-size: 1cm;
+    color:greenyellow ;
+    background-color: white;
+    width: 400px;
+    margin: 12%;
+    margin-left: 500px;
+}
+.main :hover
+{
+    background-color: teal;
+    
+}
+#ellit
+{
+    margin-left: 580px;
+    margin-bottom: 20%;
+
+}
+
+#button
+{
+    margin-bottom: 600px;
+    margin-left: 580px;
+    background-color: yellow;
+    width: 5cm;
+    height: 1.5cm;
+}
+#button :hover
+{
+    background-color: red;
+    color: green;
+}
